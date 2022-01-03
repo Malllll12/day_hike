@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe "Trails Show page" do
+RSpec.describe "Trails Index page" do
   it 'shows the names of all trips' do
     rocky = Trip.create!(name: "Rocky Mtn National Park")
     yellowstone = Trip.create!(name: "Yellowstone National Park")

@@ -1,0 +1,8 @@
+<h1><%= @trail.name %></h1>
+<h3><%= @trail.address %></h3>
+
+<% @trips.each do |trip| %>
+<%= "#{trip.name} Total length: #{trip.total_distance}"%>
+<% end %>
+
+<p><%= "#{@trail.trip_count} trips include this trail" %></p>
